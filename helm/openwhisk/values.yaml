@@ -130,8 +130,8 @@ k8s:
   dns: kube-dns.kube-system
   persistence:
     enabled: true
-    hasDefaultStorageClass: true
-    explicitStorageClass: nil
+    hasDefaultStorageClass: false
+    explicitStorageClass: rook-ceph-block
 
 # Images used to run auxillary tasks/jobs
 utility:
